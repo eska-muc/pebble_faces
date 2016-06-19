@@ -1,0 +1,45 @@
+{
+    "author": "skue",
+    "dependencies": {},
+    "keywords": [],
+    "name": "myberlinwatch",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "MyBerlinWatch",
+        "enableMultiJS": false,
+        "messageKeys": {},
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/20160127_MyBerlinWatch_1816_small.png",
+                    "menuIcon": true,
+                    "name": "PREVIEW_SMALL",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/20160127_MyBerlinWatch_1816.png",
+                    "name": "PREVIEW_LARGE",
+                    "targetPlatforms": [
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "basalt"
+        ],
+        "uuid": "1a7d299c-662c-4b64-bee8-11988138e951",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
